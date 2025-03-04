@@ -92,6 +92,7 @@ h2 {
     }
 
 .hr-lines::before{
+                  content: "";
                   height: 2px;
                   width: 220px;
                   background: rgb(170, 155, 155);
