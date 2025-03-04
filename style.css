@@ -1,0 +1,160 @@
+body{
+    overflow: hidden;
+    background-color: rgb(235, 210, 235);
+}
+
+h1 {
+    color:rgb(209, 51, 209);
+    font-family: Helvetica;
+    font-size: 50px;
+   }
+
+h2 {
+    padding: 10px;
+    font-family:Helvetica;
+    font-size: 30px;
+    padding: 0%;
+   }
+
+.container {
+             display: flex;
+             padding: 3%;
+             margin: 0% auto;
+             height: 100vh;
+             justify-content: center;
+            }
+
+.inner-container {
+                  width: 0% auto;
+                  width: 500px;
+                  height:500px;
+                  padding: 20px;
+                  }
+
+#input{
+       padding: 8px 12px;
+       width: 100%;
+       margin: 5px 0;
+       border-radius: 20px;
+       border: rgb(182, 174, 174);
+       height: 25px;
+      }
+
+.Create {
+         background: rgb(209, 76, 209);
+         border: none;
+         border-radius: 10px;
+         padding: 12px;
+         color: white;
+         cursor: pointer;
+         margin:10px;
+         width: 100%;
+        font-size: 20px;
+        }
+
+.eyeicon{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+        }
+#eyes{
+    position: absolute;
+    top:0;
+    right: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 15px 0;
+    color: grey;
+
+    }
+.photo {
+         /* height: 500px; */
+         width: 500px;
+         border-right:solid 2px plum;
+         display: block;
+         padding: 20px;
+       }
+
+.photo img {
+            height: 700px;
+            width: 500px;
+            object-fit: cover;
+
+           }
+
+.hr-lines {
+        position: relative;
+        max-width: 500px;
+        margin: 40px auto;
+        text-align: center;
+        color:black;
+    }
+
+.hr-lines::before{
+                  height: 2px;
+                  width: 220px;
+                  background: rgb(170, 155, 155);
+                  display: block;
+                  position:absolute;
+                  top: 50%;
+                  left: 0;
+                 }
+
+.hr-lines::after{
+                 content:"";
+                 height: 2px;
+                 width: 220px;
+                 background: rgb(156, 146, 146);
+                 display: block;
+                 position:absolute;
+                 top: 50%;
+                 right: 0;
+                 }
+   
+fieldset {
+           border: none;
+           display: flex;
+           gap: 80px;
+           padding: 0;
+           margin: 0;
+         }
+
+.icons {
+        display: flex;
+        align-items: center;
+        margin:auto;
+        justify-content: center;
+        gap: 80px;
+
+}
+
+.google {
+         width: 30px;
+         height: 30px;
+         background-color: white;
+         padding: 10px 5px;
+
+        }
+
+.facebook {
+           width: 30px;
+           height: 30px;
+           background-color: white;
+           padding: 10px 5px;
+          }
+
+.apple {
+         width: 30px;
+         height: 30px;
+         background-color: white;
+         padding: 10px 5px;
+       }
+
+.form {
+       font-family:Arial, Helvetica, sans-serif;
+       border: 0% 0% 0% 200%;
+       width: 100%;
+       margin: 50px auto;
+       background-color:rgb(235, 210, 235);
+      } 
